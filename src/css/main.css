@@ -2,7 +2,7 @@
 
 :root {
   --generic-template-background: #fff;
-  --logo-width: 690px;
+  --logo-width: 100%;
   --top-wrapper-space: 0;
   --primary-template-background: #04194c;
   --light-template-background: #fff;
@@ -35,7 +35,6 @@ body {
   align-items: center;
   color: var(--light-template-background);
   align-self: center;
-  max-width: 120px;
 }
 
 .logo h2 {
@@ -46,6 +45,7 @@ body {
 
 .logo img {
   width: var(--logo-width);
+  max-width: 690px;
 }
 
 .wrapper {
