@@ -200,3 +200,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
+
+.accordion-body {
+  padding-inline: 10px;
+}
